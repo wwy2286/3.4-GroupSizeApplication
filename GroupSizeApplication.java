@@ -57,6 +57,7 @@ public class GroupSizeApplication extends Application {
                         output.setContentText("Team size is 1");
                         output.showAndWait();
                     }
+                    numberOfTries=-1;
                 }else{
                     output.setContentText("Wrong Password");
                     output.showAndWait();
